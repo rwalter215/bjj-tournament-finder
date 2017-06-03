@@ -1,9 +1,8 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
-//const Title = require('./Title')
+import React from 'react'
+import ReactDOM from 'react-dom'
 import Title from './Title'
 import TournamentList from './TournamentList'
-import './styles/App.css'
+import './App.css'
 
 const App = () => (
   <div className='app-container'>
@@ -12,4 +11,5 @@ const App = () => (
   </div>
 )
 
-ReactDOM.render(<App />, document.getElementById('app'))
+// ReactDOM.render(<App />, document.getElementById('root'))
+export default App

@@ -1,7 +1,6 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
+import React from 'react'
 //import './styles/TournamentList.css'
-import data from '../public/tournaments.json'
+import data from './tournaments.json'
 import Tournament from './Tournament'
 import TournamentListHeader from './TournamentListHeader'
 
