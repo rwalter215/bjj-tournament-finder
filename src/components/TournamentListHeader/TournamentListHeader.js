@@ -1,14 +1,15 @@
 import React from 'react'
-//import './TounamentListHeader.css'
+import { Column, Row } from 'react-foundation';
+//import './TournamentListHeader.css'
 
-const TounamentListHeader = () => (
-    <div className='row'>
-      <h5 className='small-3 small-offset-1 columns'>Date</h5>
-      <h5 className='small-2 columns'>Name</h5>
-      <h5 className='small-3 columns'>Location</h5>
-      <h5 className='small-2 columns'>Gi or No Gi</h5>
-      <div className='small-1 columns'></div>
-    </div>
+const TournamentListHeader = () => (
+    <Row className='display'>
+      <Column small={3} offsetOnSmall={1}><h5>Date</h5></Column>
+      <Column small={2}><h5>Name</h5></Column>
+      <Column small={3}><h5>Location</h5></Column>
+      <Column small={2}><h5>Gi or No Gi</h5></Column>
+      <Column small={1}></Column>
+    </Row>
 )
 
-export default TounamentListHeader
+export default TournamentListHeader
