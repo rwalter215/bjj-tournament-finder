@@ -1,8 +1,8 @@
 import React from 'react'
-//import './styles/TournamentList.css'
-import data from './tournaments.json'
-import Tournament from './Tournament'
-import TournamentListHeader from './TournamentListHeader'
+//import './TournamentList.css'
+import data from '../../tournaments.json'
+import Tournament from '../../components/Tournament/Tournament'
+import TournamentListHeader from '../../components/TournamentListHeader/TournamentListHeader'
 
 export default class TournamentList extends React.Component {
   constructor(props) {

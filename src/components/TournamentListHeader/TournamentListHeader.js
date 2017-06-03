@@ -1,6 +1,5 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
-//import './styles/TounamentListHeader.css'
+import React from 'react'
+//import './TounamentListHeader.css'
 
 const TounamentListHeader = () => (
     <div className='row'>

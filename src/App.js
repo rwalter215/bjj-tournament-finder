@@ -1,7 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import Title from './Title'
-import TournamentList from './TournamentList'
+import Title from './components/Title/Title'
+import TournamentList from './containers/TournamentList/TournamentList'
 import './App.css'
 
 const App = () => (
@@ -11,5 +10,4 @@ const App = () => (
   </div>
 )
 
-// ReactDOM.render(<App />, document.getElementById('root'))
 export default App
