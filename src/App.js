@@ -1,13 +1,13 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
-//const Title = require('./Title')
-import Title from './Title'
-import './styles/App.css'
+import React from 'react'
+import Title from './components/Title/Title'
+import TournamentList from './containers/TournamentList/TournamentList'
+import './App.css'
 
 const App = () => (
   <div className='app-container'>
     <Title/>
+    <TournamentList/>
   </div>
 )
 
-ReactDOM.render(<App />, document.getElementById('app'))
+export default App
