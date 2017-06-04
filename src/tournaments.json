@@ -1,0 +1,39 @@
+{
+    "tournaments": [{
+        "name": "Portland Sunday Open",
+        "date": "8/4/17",
+        "link": "https://www.portlandsundayopen.com/",
+        "location": "Renzo Gracie Portland",
+        "gi": true
+    },{
+        "name": "Portland Sunday Open",
+        "date": "7/7/17",
+        "link": "https://www.portlandsundayopen.com/",
+        "location": "Renzo Gracie Portland",
+        "gi": true
+    },{
+        "name": "Portland Sunday Open",
+        "date": "6/4/17",
+        "link": "https://www.portlandsundayopen.com/",
+        "location": "Renzo Gracie Portland",
+        "gi": false
+    },{
+        "name": "Portland Sunday Open",
+        "date": "9/2/17",
+        "link": "https://www.portlandsundayopen.com/",
+        "location": "Renzo Gracie Portland",
+        "gi": true
+    },{
+        "name": "Portland Sunday Open",
+        "date": "11/14/17",
+        "link": "https://www.portlandsundayopen.com/",
+        "location": "Renzo Gracie Portland",
+        "gi": false
+    },{
+        "name": "Portland Sunday Open",
+        "date": "10/24/17",
+        "link": "https://www.portlandsundayopen.com/",
+        "location": "Renzo Gracie Portland",
+        "gi": true
+    }]
+}

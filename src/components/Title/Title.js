@@ -1,6 +1,5 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
-import './styles/Title.css'
+import React from 'react'
+import './Title.css'
 
 const Title = () => (
   <div className="hero-section">
