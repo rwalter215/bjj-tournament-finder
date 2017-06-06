@@ -19,7 +19,6 @@ export default class TournamentList extends React.Component {
       b = new Date(b.date);
       return a < b ? -1 : a > b ? 1 : 0;
     });
-    console.log('copy: ', tournamentsCopy)
     this.setState({ tournaments: tournamentsCopy})
   }
 
@@ -29,7 +28,6 @@ export default class TournamentList extends React.Component {
         <TournamentListHeader/>
         <div>
           {data.tournaments.map((tournament) => {
-            console.log('tournament: ', tournament)
             return (<Tournament tournament={tournament}/>)
           })}
         </div>
